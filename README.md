@@ -28,6 +28,7 @@ git push origin <your-branch-name>
 
 
 3. 업데이트 가져오기 (작업 시작 전에 한번씩 하기)
+   
 (1) 자신이 작업 중인 브렌치에서
 ```
 git pull origin <your-branch-name>
