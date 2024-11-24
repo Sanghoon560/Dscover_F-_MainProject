@@ -3,7 +3,7 @@ import pandas as pd
 from urllib.parse import urlparse, parse_qs
 
 # YouTube API 키 설정
-API_KEY = 'AIzaSyA8idsxQ-IVQxwthHBjEt-5P0lm3uOIhbk'
+API_KEY = ''
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def get_comments_and_replies(youtube, video_id):
