@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 # YouTube API 키 설정
-API_KEY = ''
+API_KEY = 'AIzaSyA8idsxQ-IVQxwthHBjEt-5P0lm3uOIhbk'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # 2. 유료 광고 포함 여부 확인
