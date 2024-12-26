@@ -82,7 +82,7 @@ Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertain
 - 이유: 다국어 지원, 빠른 무료 API 제공
   
 - Self evaluation prompt optimization
-- 
+
 <img width="826" alt="framework" src="https://github.com/user-attachments/assets/1d524ee6-dd1e-422b-aed1-9ae880243ac9" />
 
 ![프롬프트_최적화결과](https://github.com/user-attachments/assets/4f947727-aabd-4b93-a3ae-0139b97c9b83)
