@@ -84,6 +84,7 @@ Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertain
 - Self evaluation prompt optimization
 - 
 <img width="826" alt="framework" src="https://github.com/user-attachments/assets/1d524ee6-dd1e-422b-aed1-9ae880243ac9" />
+![프롬프트_최적화결과](https://github.com/user-attachments/assets/4f947727-aabd-4b93-a3ae-0139b97c9b83)
 
 - Binary Classification
 
@@ -93,57 +94,5 @@ Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertain
 
 
 ## 기능 구현
-
-
-------
-1. 작업환경 세팅
-레포지토리 복제
-```git 
-git clone https://github.com/Sanghoon560/Dscover_F_MainProject
-```
-
-각자의 브렌치로 이동  (각자의 깃허브 내 이름으로 브렌치 생성했습니다)
-```git
-git checkout -b <your-branch-name>
-```
-
-
-2. 결과물 올리기 (simple version)
-```
-git add .
-```
-
-```
-git commit -m "{전달내용}"
-```
-
-```
-git push origin <your-branch-name>
-```
-**주의** main으로는 push 하지 않도록 주의!
-
-
-3. 업데이트 가져오기 (작업 시작 전에 한번씩 하기)
-   
-(1) 자신이 작업 중인 브렌치에서
-```
-git pull origin <your-branch-name>
-```
-
-(2) main 브렌치 업데이트 사항 가져오기
-main으로 이동
-
-```git
-git checkout -b main
-```
-main 변경사항 가져오기
-```git
-git pull origin main
-```
-자신의 브렌치로 돌아가서 작업하기
-
-```git
-git checkout -b <your-branch-name>
-```
 
 
