@@ -1,9 +1,12 @@
 from googleapiclient.discovery import build
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
 # YouTube API 키 설정
-API_KEY = 'AIzaSyA8idsxQ-IVQxwthHBjEt-5P0lm3uOIhbk'
-youtube = build('youtube', 'v3', developerKey=API_KEY)
+load_dotenv()
+api_key = os.getenv("API_KEY")
+youtube = build('youtube', 'v3', developerKey=api_key)
 
 # 2. 유료 광고 포함 여부 확인
 def get_paid_promotion_status(youtube, video_id):
