@@ -69,13 +69,19 @@ Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertain
 ## 스팸 댓글 기준
 
 
-## LLM 학습
-모델 선정: Gemini-1.5
-- 이유
+## LLM 
+- Model: Gemini-1.5-Flash
+- 이유: 다국어 지원, 빠른 무료 API 제공
+  
+- Self evaluation prompt optimization
+- 
+<img width="826" alt="framework" src="https://github.com/user-attachments/assets/1d524ee6-dd1e-422b-aed1-9ae880243ac9" />
 
-데이터: 부모 댓글과 자식 댓글(대댓글)을 JSON 형식으로 저장
+- Binary Classification
 
-방법:
+<img width="741" alt="classification" src="https://github.com/user-attachments/assets/442a75d5-6fe5-4ab4-87c0-17de9d8754d4" />
+
+
 
 
 ## 기능 구현
