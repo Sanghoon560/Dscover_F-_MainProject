@@ -23,7 +23,15 @@ LLM을 활용하여 기존 기술의 한계를 해결하고, 데이터를 체계
    
 
 ### 썸네일 자극도
+- 썸네일의 자극도 측정
+- Method: llama3.2-vision model을 이용하여, 기존의 CNN 모델과 달리, 텍스트와 이미지 모두를 분석하여, 자극도 점수를 0-9로 평가하도록 함. 
+
 - 인기동영상의 댓글과 썸네일 간의 독립 여부 판별: 독립적
+가설: "인기동영상의 댓글의 스팸 댓글의 개수와 썸네일의 자극도 점수는 독립이다"
+Chi-Square Test 결과 p-value가 0.4로 accept.
+
+- One-Way ANOVA 
+가설:  "썸네일 자극도 effect는 존재하지 않는다."
 
 ### 연령대별
 <img width="694" alt="스크린샷 2024-12-26 오전 9 55 59" src="https://github.com/user-attachments/assets/18beb71f-8426-4f46-842c-7cf9a4896b13" />
