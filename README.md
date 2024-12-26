@@ -33,6 +33,7 @@ LLM을 활용하여 기존 기술이 대댓글과 댓글의 구조적 차이를 
 ### (2차 분석)
 ### 카테고리별
 <img width="310" alt="스크린샷 2024-12-26 오전 10 00 39" src="https://github.com/user-attachments/assets/b96fbe8e-266b-4d35-bfcf-de8534591bfe" />
+
 Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertainment(1)에서 댓글 데이터 수집 및 분석
 → 카테고리별 댓글 수와 스팸 비율 간 유의미한 차이 없음
 
