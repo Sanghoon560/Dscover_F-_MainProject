@@ -1,4 +1,5 @@
 # Dscover_F_MainProject
+LLM을 활용하여 기존 기술이 대댓글과 댓글의 구조적 차이를 충분히 반영하지 못했던 한계를 해결하고, 데이터를 체계적으로 수집·분석하여 보다 정확한 스팸 탐지 방식을 제안
 
 ## 영상 선정 기준
 영상 선정을 위한 기준을 세우기 위한 상관관계 분석
@@ -58,12 +59,18 @@ Shorts(43), Gaming(20), Entertainment(24), News & Politics(25), Film & Entertain
 
 ## 댓글 수집
 크롤링 형식 통일:
-![Youtube Comment Crawling Format](https://github.com/user-attachments/assets/8237969e-4b90-44fa-a9e0-a2b35ee5c79a)
+<img width="961" alt="스크린샷 2024-12-26 오전 10 15 16" src="https://github.com/user-attachments/assets/ed1ab1ff-b116-4637-813d-75b51a8d6f30" />
 
 ## 스팸 댓글 기준
 
 
 ## LLM 학습
+모델 선정: Gemini-1.5
+- 이유
+
+데이터: 부모 댓글과 자식 댓글(대댓글)을 JSON 형식으로 저장
+
+방법:
 
 
 ## 기능 구현
