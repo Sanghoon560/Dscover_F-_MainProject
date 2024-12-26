@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 # YouTube API 키 설정
-API_KEY = ''
+API_KEY = 'AIzaSyA8idsxQ-IVQxwthHBjEt-5P0lm3uOIhbk'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # 2. 유료 광고 포함 여부 확인
@@ -192,8 +192,8 @@ def process_videos(file_path, min_likes=1000):
         # Save to CSV
         if all_comments:
             df = pd.DataFrame(all_comments)
-            df.to_csv('comments_sorted_by_likes.csv', index=False, encoding='utf-8-sig')
-            print("Comments saved to comments_sorted_by_likes.csv")
+            df.to_csv('a.csv', index=False, encoding='utf-8-sig')
+            print("a.csv")
         else:
             print("No comments collected.")
     except Exception as e:
